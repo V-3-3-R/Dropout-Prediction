@@ -65,16 +65,25 @@ cd jee-dropout-prediction
 ```
 
 # Create and activate a virtual environment (recommended):
-```python -m venv venv```
+```bash
+python -m venv venv
+```
 # On macOS/Linux
-```source venv/bin/activate```
+```bash
+source venv/bin/activate
+```
 # On Windows
-```venv\Scripts\activate```
-
+```bash
+venv\Scripts\activate
+```
 # Install dependencies:
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 # Or install manually:
-```pip install pandas scikit-learn seaborn matplotlib numpy```
+```bash
+pip install pandas scikit-learn seaborn matplotlib numpy
+```
 
 # Requirements.txt
 - pandas>=1.5.0
@@ -96,7 +105,9 @@ This will:
 
 # 💻 Running the Jupyter Notebook
 For interactive exploration:
-- jupyter notebook
+- ```bash
+  jupyter notebook
+  ```
 - Then open DROPOUT2.ipynb and run all cells.
 
 # 📊 Expected Output
